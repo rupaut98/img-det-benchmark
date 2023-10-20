@@ -7,7 +7,7 @@ import pandas as pd
 cap = cv2.VideoCapture("new_york_1.mov")
 
 # Load the YOLO model
-model = YOLO("yolov8m.pt")
+model = YOLO("yolov5m6.pt")
 
 # Initialize a list to store object detection results for each frame
 detection_results = []
